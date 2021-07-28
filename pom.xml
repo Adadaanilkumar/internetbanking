@@ -8,12 +8,12 @@
   <name>internetbanking-webapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <properties>
-  <jdk.version>1.8</jdk.version>
+ 
   <spring.version></spring.version>
-  <sonar.host.url>http://3.7.65.249:9000/</sonar.host.url>
+  <sonar.host.url>http://52.66.246.89:9000/</sonar.host.url>
   <!-- <sonar.login>admin</sonar.login> 
   <sonar.password>admin</sonar.password> -->
-    <!--<sonar.login>56174210756b403d275073d79de6eae5bac013f9</sonar.login> --> 
+    <sonar.login>b6f2fa66cbc6578086fd6f99e0dc3a93827e99a7</sonar.login>
   </properties>
   <dependencies>
     <dependency>
@@ -29,12 +29,12 @@
   <repository>
    <id>nexus</id>
    <name>internetbanking-webapp</name>
-   <url>http://3.7.69.145:8081/repository/ib_releases/</url>
+   <url>http://65.2.40.178:8081/repository/inb_releases/</url>
   </repository>
   <snapshotRepository>
   <id>nexus</id>
   <name>internetbanking-webapp</name>
-  <url>http://3.7.69.145:8081/repository/ib_snapshots/</url>
+  <url>http://65.2.40.178:8081/repository/inb_snapshots/</url>
   </snapshotRepository>
   </distributionManagement>
 	
